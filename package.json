@@ -1,0 +1,35 @@
+{
+  "name": "pg-managed-pool",
+  "version": "1.0.0",
+  "description": "Automatically manages your postgres pool connection, including connecting, and releasing the connection on either error or success.",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neonpaul/pg-managed-pool.git"
+  },
+  "keywords": [
+    "pg",
+    "postgres",
+    "postgresql",
+    "pool",
+    "connection"
+  ],
+  "author": "Paul Kiddle",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/neonpaul/pg-managed-pool/issues"
+  },
+  "homepage": "https://github.com/neonpaul/pg-managed-pool#readme",
+  "peerDependencies": {
+    "pg": "^7.4.3"
+  },
+  "devDependencies": {
+    "pg": "^7.4.3"
+  }
+}
